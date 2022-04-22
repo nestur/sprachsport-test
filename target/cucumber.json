@@ -1,0 +1,315 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-22T14:23:26.035Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2827921800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprachsport.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Navigation to Startseite page",
+        "description": "",
+        "id": "navigation-menu;navigation-to-\u003cpagename\u003e-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 733232800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprachsport.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1419554900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the Startseite",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_is_on_the_Startseite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the Startseite button",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_clicks_the_Startseite_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4171000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the Startseite page",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_is_on_the_Startseite_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigate"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-22T14:23:31.177Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1502858300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprachsport.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Navigation to Unser Konzept page",
+        "description": "",
+        "id": "navigation-menu;navigation-to-\u003cpagename\u003e-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 754765900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprachsport.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1191124500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the Startseite",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_is_on_the_Startseite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the Unser Konzept button",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_clicks_the_Unser_Konzept_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the Unser Konzept page",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_is_on_the_Unser_Konzept_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigate"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-22T14:23:34.626Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1449935300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprachsport.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Navigation to Team page",
+        "description": "",
+        "id": "navigation-menu;navigation-to-\u003cpagename\u003e-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 750105600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprachsport.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1144026700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the Startseite",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_is_on_the_Startseite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the Team button",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_clicks_the_Team_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1498000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the Team page",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_is_on_the_Team_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigate"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-22T14:23:37.973Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1467447000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprachsport.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Navigation to Kontakt page",
+        "description": "",
+        "id": "navigation-menu;navigation-to-\u003cpagename\u003e-page;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 754848100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sprachsport.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1141530200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the Startseite",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_is_on_the_Startseite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 990200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks the Kontakt button",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_clicks_the_Kontakt_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 971300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the Kontakt page",
+            "match": {
+              "location": "com.sprachsport.step_definitions.NavigateMenuStepDef.the_user_is_on_the_Kontakt_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigate"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation Menu",
+    "description": "",
+    "id": "navigation-menu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NavigationMenu.feature",
+    "tags": [
+      {
+        "name": "@navigate",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

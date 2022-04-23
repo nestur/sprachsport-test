@@ -11,20 +11,20 @@ public class Dashboard extends PageBase {
     {
         WebDriverWait wait = new WebDriverWait(Driver.get(), 10);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href = 'https://www.sprachsport.com/']")));
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href = 'https://www.sprachsport.com/our-concept/']")));
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href = 'https://www.sprachsport.com/unser-konzept/']")));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href = 'https://www.sprachsport.com/team/']")));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@href = 'https://www.sprachsport.com/kontakt/']")));
     }
 
     @FindBy(xpath = "//a[@href = 'https://www.sprachsport.com/']")
-    public WebElement homeButton;
+    public WebElement startSeiteButton;
 
     @FindBy(xpath = "//a[@href = 'https://www.sprachsport.com/unsere-konzept/']")
-    public WebElement ourConceptButton;
+    public WebElement unserKonzeptButton;
 
     @FindBy(xpath = "//a[@href = 'https://www.sprachsport.com/team/']")
     public WebElement teamButton;
 
     @FindBy(xpath = "//a[@href = 'https://www.sprachsport.com/kontakt/']")
-    public WebElement contactButton;
+    public WebElement kontaktButton;
 }
